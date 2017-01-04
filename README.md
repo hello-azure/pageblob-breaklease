@@ -1,4 +1,4 @@
-**本文章将介绍使用该工具释放page blob租约，完成文件删除**
+﻿**本文章将介绍使用该工具释放page blob租约，完成文件删除**
 
 #### **先决条件**
 1. Framework 4.0+
@@ -8,7 +8,6 @@
 
 
 #### **使用语法**
-早之前HBase版本中，提供了HTablePool或HConnection等API，目前这些API已经过期，下面是基于ConnectionFactory创建连接的方式：
 ```python
 
 breaklease <accountName> <accountKey> <page blob url>
